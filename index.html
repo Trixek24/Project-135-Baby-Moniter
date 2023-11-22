@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>Object Detection Baby Moniter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.js" integrity="sha512-TU9AWtV5uUZPX8dbBAH8NQF1tSdigPRRT82vllAQ1Ke28puiqLA6ZVKxtUGlgrH6yWFnkKy+sE6luNEGH9ar0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body background="bg.jpg">
+  <center>
+    <div class="btn-info">
+    <p class="heading">Baby Moniter</p>
+    <h4>If a person is not detected then your  device will ring</h4>
+    </div>
+    <h3 id="status" class="btn btn-success">Detecting:Objects</h3>
+    <h3 id="baby_status" class="btn btn-success"></h3>
+    <button id="start_model" onclick="start()" class="btn btn-danger">Start</button>
+</center>
+    
+ 
+    
+    
+
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
